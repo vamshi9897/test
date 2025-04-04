@@ -36,7 +36,7 @@ app.post('/form',upload.none(),(req,res)=>{
     const mailOptions = {
         from: process.env.EMAIL,
         to: "vamshibathula1163@gmail.com", // Change to your recipient email
-        subject: `New Contact Form Submission from ${name}`,
+        subject: `New Contact Form Submissionnn from ${name}`,
         text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     };
 
